@@ -1,0 +1,42 @@
+.Job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.job-icon {
+  border-radius: 100px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#fff 0 0) padding-box,
+    /*this is your grey background*/
+      linear-gradient(
+        to right,
+        rgb(150, 47, 191),
+        rgb(214, 41, 118),
+        rgb(254, 218, 117)
+      )
+      border-box;
+  border: 3px solid transparent;
+  margin-right: 10px;
+}
+
+.job-icon-image {
+  border-radius: 100px;
+  height: 60px;
+  width: 60px;
+}
+
+p {
+  width: 60px;
+  padding: 0;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+}

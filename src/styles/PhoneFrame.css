@@ -1,0 +1,27 @@
+.PhoneFrame {
+  width: 600px;
+}
+
+.phone-blur {
+  width: 390px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  padding: 20px 0;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  overflow: scroll;
+}
+
+hr {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 1px;
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+}

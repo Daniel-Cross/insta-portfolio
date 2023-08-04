@@ -1,0 +1,72 @@
+.SidePanel {
+  width: 350px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  display: flex;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.side-panel-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.side-panel-header-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.side-panel-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin-left: 70px;
+  text-align: left;
+}
+
+.hashtags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+}

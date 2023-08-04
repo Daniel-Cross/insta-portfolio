@@ -1,0 +1,66 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-icon-name-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 20px 20px;
+}
+
+.profile-screen-icon {
+  border-radius: 100px;
+  height: 70px;
+  width: 70px;
+}
+
+.profile-screen-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 50%;
+  margin: 0 0 50px 40px;
+}
+
+.profile-screen-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.languages-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.profile-button {
+  width: 50%;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
+  height: 160px;
+}

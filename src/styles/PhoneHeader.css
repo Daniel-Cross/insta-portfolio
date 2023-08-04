@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.phone-icons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: flex-end;
+  top: 25px;
+  right: 20px;
+}
+
+.name {
+  font-family: "Oleo Script", cursive;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 5px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.icon-container {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
